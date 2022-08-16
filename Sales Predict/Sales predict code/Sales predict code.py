@@ -4,6 +4,8 @@ import numpy as np
 
 #load the dataset 
 file = pd.read_csv("Salary_Data.csv")
+#to find how many null values on the data sets
+print(" Num of null values : ",file.isnull().sum())
 print(file.head())
 
 #to find the rows and columns
